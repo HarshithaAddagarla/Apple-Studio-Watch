@@ -1,0 +1,43 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  h1, h2 {
+    color: #333;
+    text-align: center;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  .App-header {
+    background-color: #0070f3;
+    color: white;
+    padding: 20px;
+    font-size: 2rem;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0070f3;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #005bb5;
+  }
+  

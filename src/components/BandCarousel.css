@@ -1,0 +1,36 @@
+/* Band Carousel */
+.band-carousel {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .band-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+  }
+  
+  .band-item:hover {
+    border-color: #0070f3;
+  }
+  
+  .band-item.selected {
+    border-color: #0070f3;
+  }
+  
+  .swiper-container {
+    margin: 20px 0;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+  }
+  

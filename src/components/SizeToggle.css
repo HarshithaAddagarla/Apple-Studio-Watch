@@ -1,0 +1,20 @@
+/* Size Toggle */
+.size-toggle {
+    margin: 20px 0;
+  }
+  
+  .size-toggle button {
+    font-size: 1rem;
+    padding: 10px 15px;
+    margin: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .size-toggle button.selected {
+    background-color: #0070f3;
+    color: white;
+  }
+  
